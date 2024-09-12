@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+}
+.container{
+    margin: 50px;
+    max-width: 650px;
+    background: white;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+.container img{
+   padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+}
+.container .des{
+ display: flex;
+ flex-direction: column;
+ text-align: start;
+ margin:0 10px;
+}
+.container .des h1{
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: "Young Serif", serif;
+
+
+}
+.container .des p{
+    font-weight: 400;
+}
+.container .prepa{
+    display: flex;
+    flex-direction: column;
+    background: hsl(330, 100%, 98%);
+    padding: 20px;
+    text-align: start;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.container .prepa h4{
+    font-weight: 700;
+    color:  hsl(332, 51%, 32%);
+}
+.container .prepa ul{
+ padding: 10px 20px;
+
+ 
+}
+.container .prepa ul li{
+ padding-left: 20px;
+ margin-top: 10px;
+ color: hsl(30, 10%, 34%);
+
+}
+
+.container .prepa ul li strong{
+    color: hsl(24, 5%, 18%);
+}
+.container .content{
+    display: flex;
+    flex-direction: column;
+     
+  
+    text-align: start;
+   margin: 10px 0;
+   padding-bottom: 20px;
+    border-bottom:  1px solid hsla(14, 45%, 36%, 0.281);
+
+}
+.container .content:last-child{
+    border-bottom: none;
+}
+.container .content h2{
+    font-family: "Young Serif", serif;
+margin: 10px 0;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+.container .des .content ul ,.container .des .content ol{
+  margin: 0 20px;
+    line-height: 1.5;
+   color: hsl(30, 10%, 34%);
+   
+}
+.container .des .content ul li ,
+.container .des .content ol li{
+    padding-left: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+    
+}
+.container.des .content ol li strong{
+    color: hsl(24, 5%, 18%);
+}
+p{
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+ .col{
+    display: flex;
+
+align-items: start;
+margin-top: 20px;
+padding-bottom: 10px;
+border-bottom: 1px solid hsl(30, 10%, 34%);
+
+}
+.col:last-child{
+    border-bottom: none;
+}
+.col p{
+   margin:5px 20px;
+   min-width: 200px;
+    margin-right: 50px;
+    color: hsl(30, 10%, 34%);
+}
+ .col strong{
+  color:  hsl(14, 45%, 36%);
+  font-weight: 700;
+}
